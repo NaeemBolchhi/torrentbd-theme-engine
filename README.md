@@ -22,9 +22,9 @@ You can download either the UserScript version or the Extension/Add-on version a
 
 ## Useful Links
 
-- [Installation Instruction](https://topjohnwu.github.io/Magisk/install.html)
-- [Magisk Documentation](https://topjohnwu.github.io/Magisk/)
-- [Magisk Troubleshoot Wiki](https://www.didgeridoohan.com/magisk/HomePage) (by [@Didgeridoohan](https://github.com/Didgeridoohan))
+- []()
+- []()
+- []()
 
 ## Bug Reports
 
