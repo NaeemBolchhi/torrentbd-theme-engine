@@ -18,7 +18,7 @@ You can download either the UserScript version or the Extension/Add-on version a
 
 [![](https://img.shields.io/badge/UserScript-GreasyFork-%23aa1010)](LINK)
 [![](https://img.shields.io/badge/Extension-Chrome-%231a73e8)](LINK)
-[![](https://img.shields.io/badge/Addon-Firefox-%23ff5f3a)](LINK)
+[![](https://img.shields.io/badge/Add--on-Firefox-%23ff5f3a)](LINK)
 
 ## Useful Links
 
