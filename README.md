@@ -16,7 +16,7 @@ You can download either the UserScript version or the Extension/Add-on version a
 
 [TamperMonkey](https://www.tampermonkey.net/) is needed to install the UserScript from GreasyFork. Other similar extensions may also work.
 
-[![](https://img.shields.io/badge/UserScript-GreasyFork-%23aa1010)](LINK)
+[![](https://img.shields.io/badge/UserScript-GreasyFork-%23aa1010)](https://greasyfork.org/en/scripts/440627-torrentbd-theme-engine)
 [![](https://img.shields.io/badge/Extension-Chrome-%231a73e8)](LINK)
 [![](https://img.shields.io/badge/Add--on-Firefox-%23ff5f3a)](LINK)
 
