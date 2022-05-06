@@ -1,1 +1,19 @@
-placeholder
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BOOM</title>
+    <script>
+      function setJSON(key, data) {
+        if (typeof data != "string") {
+          data = JSON.stringify(data);
+        }
+        localStorage.setItem(key, data);
+      }
+
+      function getJSON(key) {
+        return JSON.parse(localStorage.getItem(key));
+      }
+    </script>
+  </head>
+  <body></body>
+</html>
