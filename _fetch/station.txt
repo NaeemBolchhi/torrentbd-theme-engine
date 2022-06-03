@@ -26,8 +26,8 @@
               <p></p>
             </inform>
             <buttons class="flex flex-row flex-self-end">
-              <button class="accent-2 btn-margin-right"></button>
-              <button class="accent-1"></button>
+              <btn class="accent-2 btn-margin-right"></btn>
+              <btn class="accent-1"></btn>
             </buttons>
         </card>
         <backdrop onclick="cancelConfirm();"></backdrop>
@@ -55,12 +55,14 @@
             <input id="bodybg" type="text" data-coloris>
             <label for="cardbg">Card Background</label>
             <input id="cardbg" type="text" data-coloris>
-            <label for="bodycolor">Text Color</label>
+            <label for="bodycolor">Body Text Color</label>
             <input id="bodycolor" type="text" data-coloris>
-            <label for="bodystark">Text Stark</label>
+            <label for="bodystark">Body Text Stark</label>
             <input id="bodystark" type="text" data-coloris>
-            <label for="navbg">Nav Background</label>
-            <input id="navbg" type="text" data-coloris>
+            <label for="btncolor">Button Text Color</label>
+            <input id="btncolor" type="text" data-coloris>
+            <label for="btnstark">Button Text Stark</label>
+            <input id="btnstark" type="text" data-coloris>
           </column>
           <column class="flex flex-column flex-content-center">
             <label for="accent1">Primary Accent</label>
@@ -69,10 +71,12 @@
             <input id="accent2" type="text" data-coloris>
             <label for="accent3">Auxiliary Accent</label>
             <input id="accent3" type="text" data-coloris>
-            <label for="logo">TorrentBD Logo</label>
-            <input id="logo" type="text" data-coloris>
+            <label for="navbg">Nav Background</label>
+            <input id="navbg" type="text" data-coloris>
             <label for="titlecolor">Nav Text</label>
             <input id="titlecolor" type="text" data-coloris>
+            <label for="logo">TorrentBD Logo</label>
+            <input id="logo" type="text" data-coloris>
           </column>
         </row>
         <row class="flex flex-center flex-row flex-content-center">
