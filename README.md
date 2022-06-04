@@ -10,9 +10,9 @@ TorrentBD Theme Engine uses JavaScript to dynamically change the CSS (and some H
 
 The script uses localStorage to save color values in the browser, and connects them with CSS variables to allow users to change any color as they please. It is a simple application, but the code might be crude. I'm still learning.
 
-## Downloads
+## Install
 
-You can download either the UserScript version or the Extension/Add-on version at your convenience. UserScript version is updated first.
+You can install either the UserScript version or the Extension/Add-on version at your convenience. UserScript version is updated first.
 
 [TamperMonkey](https://www.tampermonkey.net/) is needed to install the UserScript from GreasyFork. Other similar extensions may also work.
 
