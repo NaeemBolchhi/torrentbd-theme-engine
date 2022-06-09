@@ -24,7 +24,7 @@
     <confirm class="flex-center flex-content-center">
         <card class="flex flex-center flex-column">
             <inform><p></p><p></p></inform>
-            <form onsubmit="notify3JSON();return false;" class="flex flex-center flex-column flex-content-center advanced hide">
+            <form onsubmit="applyFont();return false;" class="flex flex-center flex-column flex-content-center advanced hide">
               <row class="table-row">
                 <div class="table-cell advanced">
                   <label for="fontlink">Font Family URL</label>
