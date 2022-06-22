@@ -149,29 +149,6 @@ main {
     }
 }
 
-header {
-    btn {
-        fill: var(--engine-body-color);
-        height: 1.6rem;
-        width: 1.6rem;
-        cursor: pointer;
-        svg {
-            height: 1.6rem;
-            width: auto;
-            @include resHeight(885px, 2rem);
-        }
-        &:hover {
-            fill: var(--engine-body-color-stark);
-        }
-        &:active {
-            svg {
-                height: 1.4rem;
-                @include resHeight(885px, 1.8rem);
-            }
-        }
-    }
-}
-
 footer {
     h3 {
         margin-bottom: .8rem;
@@ -188,17 +165,39 @@ footer {
     }
 }
 
+header {
+    btn {
+        fill: var(--engine-body-color);
+        height: 2.2rem;
+        width: 2.2rem;
+        cursor: pointer;
+        svg {
+            height: 2.2rem;
+            width: auto;
+            @include resHeight(885px, 2rem);
+        }
+        &:hover {
+            fill: var(--engine-body-color-stark);
+        }
+        &:active {
+            svg {
+                height: 2rem;
+                @include resHeight(885px, 1.8rem);
+            }
+        }
+    }
+}
+
 #gotogithub {
     font-size: .9rem;
     font-weight: 700;
-    margin-right: 2rem;
     padding: calc(.75rem + 2px) 1rem .75rem 1rem;
     border-radius: 0 0 6px 6px;
     background: var(--engine-accent-color-1);
     color: var(--engine-button-color);
     fill: var(--engine-button-color);
     transform: translateY(-2px);
-    @include resFont(885px, 1.4rem);
+    @include resFont(885px, 1.3rem);
     span {
         margin-right: .5rem;
     }

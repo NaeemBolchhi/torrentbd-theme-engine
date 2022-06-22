@@ -237,38 +237,6 @@ main {
           transform: translateY(2px);
 }
 
-header btn {
-  fill: var(--engine-body-color);
-  height: 1.6rem;
-  width: 1.6rem;
-  cursor: pointer;
-}
-
-header btn svg {
-  height: 1.6rem;
-  width: auto;
-}
-
-@media screen and (max-width: 885px) {
-  header btn svg {
-    height: 2rem;
-  }
-}
-
-header btn:hover {
-  fill: var(--engine-body-color-stark);
-}
-
-header btn:active svg {
-  height: 1.4rem;
-}
-
-@media screen and (max-width: 885px) {
-  header btn:active svg {
-    height: 1.8rem;
-  }
-}
-
 footer h3 {
   margin-bottom: .8rem;
 }
@@ -293,10 +261,41 @@ footer a.no-margin {
   margin: 0;
 }
 
+header btn {
+  fill: var(--engine-body-color);
+  height: 2.2rem;
+  width: 2.2rem;
+  cursor: pointer;
+}
+
+header btn svg {
+  height: 2.2rem;
+  width: auto;
+}
+
+@media screen and (max-width: 885px) {
+  header btn svg {
+    height: 2rem;
+  }
+}
+
+header btn:hover {
+  fill: var(--engine-body-color-stark);
+}
+
+header btn:active svg {
+  height: 2rem;
+}
+
+@media screen and (max-width: 885px) {
+  header btn:active svg {
+    height: 1.8rem;
+  }
+}
+
 #gotogithub {
   font-size: .9rem;
   font-weight: 700;
-  margin-right: 2rem;
   padding: calc(.75rem + 2px) 1rem 0.75rem 1rem;
   border-radius: 0 0 6px 6px;
   background: var(--engine-accent-color-1);
@@ -308,7 +307,7 @@ footer a.no-margin {
 
 @media screen and (max-width: 885px) {
   #gotogithub {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
 }
 
