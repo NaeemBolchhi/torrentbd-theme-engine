@@ -8,6 +8,11 @@
         height: $size;
     }
 }
+@mixin resWidth($width, $size) {
+    @media screen and (max-width: $width) {
+        width: $size;
+    }
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Radio+Canada:ital,wght@0,400;0,700;1,400;1,700');
 
@@ -172,6 +177,7 @@ header {
         width: 1.6rem;
         cursor: pointer;
         @include resHeight(885px, 2.2rem);
+        @include resWidth(885px, 2.2rem);
         svg {
             height: 1.6rem;
             width: auto;
