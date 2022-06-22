@@ -263,19 +263,19 @@ footer a.no-margin {
 
 header btn {
   fill: var(--engine-body-color);
-  height: 2.2rem;
-  width: 2.2rem;
+  height: 1.6rem;
+  width: 1.6rem;
   cursor: pointer;
 }
 
 header btn svg {
-  height: 2.2rem;
+  height: 1.6rem;
   width: auto;
 }
 
 @media screen and (max-width: 885px) {
   header btn svg {
-    height: 2rem;
+    height: 2.2rem;
   }
 }
 
@@ -284,12 +284,12 @@ header btn:hover {
 }
 
 header btn:active svg {
-  height: 2rem;
+  height: 1.4rem;
 }
 
 @media screen and (max-width: 885px) {
   header btn:active svg {
-    height: 1.8rem;
+    height: 2rem;
   }
 }
 

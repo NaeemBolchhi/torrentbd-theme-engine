@@ -168,21 +168,21 @@ footer {
 header {
     btn {
         fill: var(--engine-body-color);
-        height: 2.2rem;
-        width: 2.2rem;
+        height: 1.6rem;
+        width: 1.6rem;
         cursor: pointer;
         svg {
-            height: 2.2rem;
+            height: 1.6rem;
             width: auto;
-            @include resHeight(885px, 2rem);
+            @include resHeight(885px, 2.2rem);
         }
         &:hover {
             fill: var(--engine-body-color-stark);
         }
         &:active {
             svg {
-                height: 2rem;
-                @include resHeight(885px, 1.8rem);
+                height: 1.4rem;
+                @include resHeight(885px, 2rem);
             }
         }
     }
