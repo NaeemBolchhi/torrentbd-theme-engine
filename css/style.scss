@@ -1,0 +1,183 @@
+@mixin selectNone {
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+}
+@mixin resFont($width, $size) {
+    @media screen and (max-width: $width) {
+        font-size: $size;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:ital,wght@0,400;0,700;1,400;1,700');
+
+@import "_colors";
+
+* {
+    scrollbar-width: thin !important;
+    scrollbar-color: #000000ff #00000000 !important;
+    box-sizing: border-box;
+    transition: .1s;
+}
+::selection {
+    color: var(--engine-body-bg);
+    background: var(--engine-accent-color-1);
+}
+body,
+html {
+    height: 100%;
+    width: 100%;
+    line-height: 1.2;
+}
+html {
+    font-family: 'Radio Canada', sans-serif;
+    font-size: 18px;
+    @include resFont(1225px, 17px);
+    @include resFont(1157px, 16px);
+    @include resFont(1089px, 15px);
+    @include resFont(1021px, 14px);
+    @include resFont(953px, 13px);
+    @include resFont(885px, 12px);
+    @include resFont(817px, 11px);
+    @include resFont(749px, 10px);
+}
+body {
+    color: var(--engine-body-color);
+    background: var(--engine-body-bg);
+    padding: 0;
+    margin: 0;
+}
+content {
+    height: 100%;
+    width: 100%;
+}
+a {
+    @include selectNone();
+    text-decoration: none;
+    color: var(--engine-accent-color-1);
+    outline: 0;
+    &:hover {
+        color: var(--engine-accent-color-1a);
+    }
+    &:active {
+        transform: translateY(2px);
+    }
+}
+h1, h2, h3 {
+    margin: 0;
+    font-weight: 400;
+}
+h1 {
+    font-size: 5.5rem;
+    margin: .5rem 0;
+    color: var(--engine-body-color-stark);
+}
+h2 {
+    font-size: 1.5rem;
+    margin: .5rem 0;
+}
+h3 {
+    margin: .5rem 0;
+    font-size: .9rem;
+}
+main {
+    text-align: center;
+}
+.container {
+    background: 0 0;
+    width: 80rem;
+    max-width: calc(100vw - 2rem);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    color: var(--engine-body-color);
+    word-wrap: break-word;
+    &.no-padding-top {
+        padding-top: 0;
+    }
+}
+.flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    &.flex-center-v {
+        align-items: center;
+    }
+    &.flex-center-h {
+        justify-content: center;
+    }
+    &.flex-space-between {
+        justify-content: space-between;
+    }
+    &.flex-column {
+        flex-direction: column;
+        &.flex-reverse {
+            flex-direction: column-reverse;
+        }
+    }
+    &.flex-row {
+        flex-direction: row;
+        &.flex-reverse {
+            flex-direction: row-reverse;
+        }
+    }
+    .flex-grow {
+        flex: 1 0 auto;
+    }
+}
+
+.browser-icons {
+    @include selectNone();
+    margin: .5rem 0;
+    a {
+        margin: 0 .8rem;
+    }
+    img {
+        height: 5rem;
+        width: auto;
+        padding: .2rem;
+        &:hover {
+            padding: 0;
+        }
+        &:active {
+            transform: translateY(2px);
+        }
+    }
+}
+
+footer {
+    a {
+        margin: 0 .5rem;
+        &.no-margin {
+            margin: 0;
+        }
+    }
+}
+
+#gotogithub {
+    font-size: .85rem;
+    font-weight: 700;
+    margin-right: 2rem;
+    padding: calc(.75rem + 2px) 1rem .75rem 1rem;
+    border-radius: 0 0 6px 6px;
+    background: var(--engine-accent-color-1);
+    color: var(--engine-button-color);
+    fill: var(--engine-button-color);
+    transform: translateY(-2px);
+    span {
+        margin-right: .5rem;
+    }
+    svg {
+        height: 1.2rem;
+        width: auto;
+    }
+    &:hover {
+        color: var(--engine-button-color-hover);
+        fill: var(--engine-button-color-hover);
+        background: var(--engine-accent-color-1a);
+    }
+    &:active {
+        transform: translateY(0);
+    }
+}

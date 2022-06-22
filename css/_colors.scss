@@ -1,0 +1,98 @@
+@media screen and (prefers-color-scheme: dark) {
+    :root {
+        /* Get User Defined */
+        --engine-body-bg: #212328;
+        --engine-card-bg: #2b2d33;
+        --engine-nav-bg: #2c3e50;
+        --engine-body-color: #b8c6cc;
+        --engine-body-color-stark: #ffffff;
+        --engine-button-color: #2b2d33;
+        --engine-button-color-hover: #212328;
+        --engine-accent-color-1: #4db6ac;
+        --engine-accent-color-2: #039be5;
+        --engine-accent-color-3: #4caf50;
+        --engine-content-title: #ffffff;
+        --engine-logo-color: #f5f5f5;
+        --engine-cat-filter: initial;
+        /* Refer User Defined */
+        --engine-body-color-light: #b8c6cccc;
+        --engine-table-odd-bg: #27292f;
+        --engine-accent-color-1a: #61cac0;
+        --engine-accent-color-1b: #077066;
+        --engine-accent-color-2a: #17aff9;
+        --engine-accent-color-3a: #60c364;
+        --engine-media-hover-bg: #3a3c42cc;
+        --engine-account-buttons: #b8c6cc;
+        --engine-account-buttons-hover: #ffffff;
+        --engine-account-buttons-background: #ffffff15;
+        /* Defined, No Change */
+        --engine-seeders: #4caf50;
+        --engine-leechers: #f44336;
+        --engine-completed: #ffa726;
+        /* Referred */
+        --engine-search-color: var(--engine-content-title);
+        --engine-search-background: var(--engine-nav-bg);
+        --engine-menu-item: var(--engine-content-title);
+        --engine-menu-item-hover: var(--engine-accent-color-1);
+        --engine-like-button: var(--engine-content-title);
+        --engine-border-color: var(--engine-body-bg);
+        --engine-theme-toggle: var(--engine-account-buttons);
+        --engine-theme-toggle-hover: var(--engine-account-buttons-hover);
+        --engine-theme-toggle-background: var(--engine-account-buttons-background);
+    }
+    .dawn {
+        display: none;
+    }
+    .dusk {
+        display: inherit;
+    }
+}
+@media screen and (prefers-color-scheme: light) {
+    :root {
+        /* Get User Defined */
+        --engine-body-bg: #e9ecef;
+        --engine-card-bg: #f5f5f5;
+        --engine-nav-bg: #284766;
+        --engine-body-color: #3a3a40;
+        --engine-body-color-stark: #000000;
+        --engine-button-color: #e9ecef;
+        --engine-button-color-hover: #f5f5f5;
+        --engine-accent-color-1: #409b92;
+        --engine-accent-color-2: #039be5;
+        --engine-accent-color-3: #4caf50;
+        --engine-content-title: #f5f5f5;
+        --engine-logo-color: #f5f5f5;
+        --engine-cat-filter: initial;
+        /* Refer User Defined */
+        --engine-body-color-light: #3a3a40cc;
+        --engine-table-odd-bg: #f1f1f1;
+        --engine-accent-color-1a: #54afa6;
+        --engine-accent-color-1b: #00554c;
+        --engine-accent-color-2a: #17aff9;
+        --engine-accent-color-3a: #60c364;
+        --engine-media-hover-bg: #ffffffcc;
+        --engine-account-buttons: #3a3a40;
+        --engine-account-buttons-hover: #000000;
+        --engine-account-buttons-background: #00000015;
+        /* Defined, No Change */
+        --engine-seeders: #4caf50;
+        --engine-leechers: #f44336;
+        --engine-completed: #ffa726;
+        /* Referred */
+        --engine-search-color: var(--engine-content-title);
+        --engine-search-background: var(--engine-nav-bg);
+        --engine-menu-item: var(--engine-content-title);
+        --engine-menu-item-hover: var(--engine-accent-color-1);
+        --engine-like-button: var(--engine-content-title);
+        --engine-border-color: var(--engine-body-bg);
+        --engine-theme-toggle: var(--engine-account-buttons);
+        --engine-theme-toggle-hover: var(--engine-account-buttons-hover);
+        --engine-theme-toggle-background: var(--engine-account-buttons-background);
+    }
+    .dawn {
+        display: inherit;
+    }
+    .dusk {
+        display: none;
+    }
+}

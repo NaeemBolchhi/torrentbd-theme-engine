@@ -1,0 +1,379 @@
+@import url("https://fonts.googleapis.com/css2?family=Radio+Canada:ital,wght@0,400;0,700;1,400;1,700");
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    /* Get User Defined */
+    --engine-body-bg: #212328;
+    --engine-card-bg: #2b2d33;
+    --engine-nav-bg: #2c3e50;
+    --engine-body-color: #b8c6cc;
+    --engine-body-color-stark: #ffffff;
+    --engine-button-color: #2b2d33;
+    --engine-button-color-hover: #212328;
+    --engine-accent-color-1: #4db6ac;
+    --engine-accent-color-2: #039be5;
+    --engine-accent-color-3: #4caf50;
+    --engine-content-title: #ffffff;
+    --engine-logo-color: #f5f5f5;
+    --engine-cat-filter: initial;
+    /* Refer User Defined */
+    --engine-body-color-light: #b8c6cccc;
+    --engine-table-odd-bg: #27292f;
+    --engine-accent-color-1a: #61cac0;
+    --engine-accent-color-1b: #077066;
+    --engine-accent-color-2a: #17aff9;
+    --engine-accent-color-3a: #60c364;
+    --engine-media-hover-bg: #3a3c42cc;
+    --engine-account-buttons: #b8c6cc;
+    --engine-account-buttons-hover: #ffffff;
+    --engine-account-buttons-background: #ffffff15;
+    /* Defined, No Change */
+    --engine-seeders: #4caf50;
+    --engine-leechers: #f44336;
+    --engine-completed: #ffa726;
+    /* Referred */
+    --engine-search-color: var(--engine-content-title);
+    --engine-search-background: var(--engine-nav-bg);
+    --engine-menu-item: var(--engine-content-title);
+    --engine-menu-item-hover: var(--engine-accent-color-1);
+    --engine-like-button: var(--engine-content-title);
+    --engine-border-color: var(--engine-body-bg);
+    --engine-theme-toggle: var(--engine-account-buttons);
+    --engine-theme-toggle-hover: var(--engine-account-buttons-hover);
+    --engine-theme-toggle-background: var(--engine-account-buttons-background);
+  }
+  .dawn {
+    display: none;
+  }
+  .dusk {
+    display: inherit;
+  }
+}
+
+@media screen and (prefers-color-scheme: light) {
+  :root {
+    /* Get User Defined */
+    --engine-body-bg: #e9ecef;
+    --engine-card-bg: #f5f5f5;
+    --engine-nav-bg: #284766;
+    --engine-body-color: #3a3a40;
+    --engine-body-color-stark: #000000;
+    --engine-button-color: #e9ecef;
+    --engine-button-color-hover: #f5f5f5;
+    --engine-accent-color-1: #409b92;
+    --engine-accent-color-2: #039be5;
+    --engine-accent-color-3: #4caf50;
+    --engine-content-title: #f5f5f5;
+    --engine-logo-color: #f5f5f5;
+    --engine-cat-filter: initial;
+    /* Refer User Defined */
+    --engine-body-color-light: #3a3a40cc;
+    --engine-table-odd-bg: #f1f1f1;
+    --engine-accent-color-1a: #54afa6;
+    --engine-accent-color-1b: #00554c;
+    --engine-accent-color-2a: #17aff9;
+    --engine-accent-color-3a: #60c364;
+    --engine-media-hover-bg: #ffffffcc;
+    --engine-account-buttons: #3a3a40;
+    --engine-account-buttons-hover: #000000;
+    --engine-account-buttons-background: #00000015;
+    /* Defined, No Change */
+    --engine-seeders: #4caf50;
+    --engine-leechers: #f44336;
+    --engine-completed: #ffa726;
+    /* Referred */
+    --engine-search-color: var(--engine-content-title);
+    --engine-search-background: var(--engine-nav-bg);
+    --engine-menu-item: var(--engine-content-title);
+    --engine-menu-item-hover: var(--engine-accent-color-1);
+    --engine-like-button: var(--engine-content-title);
+    --engine-border-color: var(--engine-body-bg);
+    --engine-theme-toggle: var(--engine-account-buttons);
+    --engine-theme-toggle-hover: var(--engine-account-buttons-hover);
+    --engine-theme-toggle-background: var(--engine-account-buttons-background);
+  }
+  .dawn {
+    display: inherit;
+  }
+  .dusk {
+    display: none;
+  }
+}
+
+* {
+  scrollbar-width: thin !important;
+  scrollbar-color: #000000ff #00000000 !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: .1s;
+  transition: .1s;
+}
+
+::-moz-selection {
+  color: var(--engine-body-bg);
+  background: var(--engine-accent-color-1);
+}
+
+::selection {
+  color: var(--engine-body-bg);
+  background: var(--engine-accent-color-1);
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  line-height: 1.2;
+}
+
+html {
+  font-family: 'Radio Canada', sans-serif;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 1225px) {
+  html {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 1157px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1089px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1021px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 953px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 885px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 817px) {
+  html {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+body {
+  color: var(--engine-body-color);
+  background: var(--engine-body-bg);
+  padding: 0;
+  margin: 0;
+}
+
+content {
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  text-decoration: none;
+  color: var(--engine-accent-color-1);
+  outline: 0;
+}
+
+a:hover {
+  color: var(--engine-accent-color-1a);
+}
+
+a:active {
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+}
+
+h1, h2, h3 {
+  margin: 0;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 5.5rem;
+  margin: .5rem 0;
+  color: var(--engine-body-color-stark);
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: .5rem 0;
+}
+
+h3 {
+  margin: .5rem 0;
+  font-size: .9rem;
+}
+
+main {
+  text-align: center;
+}
+
+.container {
+  background: 0 0;
+  width: 80rem;
+  max-width: calc(100vw - 2rem);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  color: var(--engine-body-color);
+  word-wrap: break-word;
+}
+
+.container.no-padding-top {
+  padding-top: 0;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex.flex-center-v {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex.flex-center-h {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex.flex-space-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex.flex-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex.flex-column.flex-reverse {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
+.flex.flex-row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.flex.flex-row.flex-reverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.flex .flex-grow {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+
+.browser-icons {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  margin: .5rem 0;
+}
+
+.browser-icons a {
+  margin: 0 .8rem;
+}
+
+.browser-icons img {
+  height: 5rem;
+  width: auto;
+  padding: .2rem;
+}
+
+.browser-icons img:hover {
+  padding: 0;
+}
+
+.browser-icons img:active {
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+}
+
+footer a {
+  margin: 0 .5rem;
+}
+
+footer a.no-margin {
+  margin: 0;
+}
+
+#gotogithub {
+  font-size: .85rem;
+  font-weight: 700;
+  margin-right: 2rem;
+  padding: calc(.75rem + 2px) 1rem 0.75rem 1rem;
+  border-radius: 0 0 6px 6px;
+  background: var(--engine-accent-color-1);
+  color: var(--engine-button-color);
+  fill: var(--engine-button-color);
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+}
+
+#gotogithub span {
+  margin-right: .5rem;
+}
+
+#gotogithub svg {
+  height: 1.2rem;
+  width: auto;
+}
+
+#gotogithub:hover {
+  color: var(--engine-button-color-hover);
+  fill: var(--engine-button-color-hover);
+  background: var(--engine-accent-color-1a);
+}
+
+#gotogithub:active {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+/*# sourceMappingURL=style.css.map */
