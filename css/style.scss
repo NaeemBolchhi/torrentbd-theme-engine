@@ -147,6 +147,9 @@ main {
 }
 
 footer {
+    h3 {
+        @include resFont(885px, 1.4rem);
+    }
     a {
         margin: 0 .5rem;
         &.no-margin {
@@ -156,7 +159,7 @@ footer {
 }
 
 #gotogithub {
-    font-size: .85rem;
+    font-size: .9rem;
     font-weight: 700;
     margin-right: 2rem;
     padding: calc(.75rem + 2px) 1rem .75rem 1rem;
@@ -165,12 +168,14 @@ footer {
     color: var(--engine-button-color);
     fill: var(--engine-button-color);
     transform: translateY(-2px);
+    @include resFont(885px, 1.3rem);
     span {
         margin-right: .5rem;
     }
     svg {
         height: 1.2rem;
         width: auto;
+        @include resFont(885px, 1.5rem);
     }
     &:hover {
         color: var(--engine-button-color-hover);

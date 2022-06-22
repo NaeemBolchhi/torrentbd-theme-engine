@@ -336,6 +336,12 @@ main {
           transform: translateY(2px);
 }
 
+@media screen and (max-width: 885px) {
+  footer h3 {
+    font-size: 1.4rem;
+  }
+}
+
 footer a {
   margin: 0 .5rem;
 }
@@ -345,7 +351,7 @@ footer a.no-margin {
 }
 
 #gotogithub {
-  font-size: .85rem;
+  font-size: .9rem;
   font-weight: 700;
   margin-right: 2rem;
   padding: calc(.75rem + 2px) 1rem 0.75rem 1rem;
@@ -357,6 +363,12 @@ footer a.no-margin {
           transform: translateY(-2px);
 }
 
+@media screen and (max-width: 885px) {
+  #gotogithub {
+    font-size: 1.3rem;
+  }
+}
+
 #gotogithub span {
   margin-right: .5rem;
 }
@@ -364,6 +376,12 @@ footer a.no-margin {
 #gotogithub svg {
   height: 1.2rem;
   width: auto;
+}
+
+@media screen and (max-width: 885px) {
+  #gotogithub svg {
+    font-size: 1.5rem;
+  }
 }
 
 #gotogithub:hover {
