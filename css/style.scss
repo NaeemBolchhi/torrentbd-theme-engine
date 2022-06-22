@@ -171,6 +171,7 @@ header {
         height: 1.6rem;
         width: 1.6rem;
         cursor: pointer;
+        @include resHeight(885px, 2.2rem);
         svg {
             height: 1.6rem;
             width: auto;
