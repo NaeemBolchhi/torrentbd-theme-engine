@@ -1,0 +1,6 @@
+svg.dawn, svg.dusk {
+  display: none !important;
+}
+.auto {
+  display: inherit !important;
+}

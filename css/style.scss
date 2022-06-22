@@ -1,16 +1,15 @@
-@mixin selectNone {
-    -webkit-tap-highlight-color: transparent;
-    user-select: none;
-}
 @mixin resFont($width, $size) {
     @media screen and (max-width: $width) {
         font-size: $size;
     }
 }
+@mixin resHeight($width, $size) {
+    @media screen and (max-width: $width) {
+        height: $size;
+    }
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Radio+Canada:ital,wght@0,400;0,700;1,400;1,700');
-
-@import "_colors";
 
 * {
     scrollbar-width: thin !important;
@@ -21,6 +20,10 @@
 ::selection {
     color: var(--engine-body-bg);
     background: var(--engine-accent-color-1);
+}
+.browser-icons, header {
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
 }
 body,
 html {
@@ -51,7 +54,6 @@ content {
     width: 100%;
 }
 a {
-    @include selectNone();
     text-decoration: none;
     color: var(--engine-accent-color-1);
     outline: 0;
@@ -62,22 +64,23 @@ a {
         transform: translateY(2px);
     }
 }
-h1, h2, h3 {
+h1, h2, h3, h4 {
     margin: 0;
     font-weight: 400;
+    margin: .5rem 0;
 }
 h1 {
     font-size: 5.5rem;
-    margin: .5rem 0;
     color: var(--engine-body-color-stark);
 }
 h2 {
     font-size: 1.5rem;
-    margin: .5rem 0;
 }
 h3 {
-    margin: .5rem 0;
     font-size: .9rem;
+}
+h4 {
+    font-size: .7rem;
 }
 main {
     text-align: center;
@@ -128,7 +131,6 @@ main {
 }
 
 .browser-icons {
-    @include selectNone();
     margin: .5rem 0;
     a {
         margin: 0 .8rem;
@@ -146,9 +148,36 @@ main {
     }
 }
 
+header {
+    btn {
+        fill: var(--engine-body-color);
+        height: 1.6rem;
+        width: 1.6rem;
+        cursor: pointer;
+        svg {
+            height: 1.6rem;
+            width: auto;
+            @include resHeight(885px, 2rem);
+        }
+        &:hover {
+            fill: var(--engine-body-color-stark);
+        }
+        &:active {
+            svg {
+                height: 1.4rem;
+                @include resHeight(885px, 1.8rem);
+            }
+        }
+    }
+}
+
 footer {
     h3 {
+        margin-bottom: .8rem;
         @include resFont(885px, 1.4rem);
+    }
+    h4 {
+        @include resFont(885px, 1.2rem);
     }
     a {
         margin: 0 .5rem;
@@ -168,14 +197,14 @@ footer {
     color: var(--engine-button-color);
     fill: var(--engine-button-color);
     transform: translateY(-2px);
-    @include resFont(885px, 1.3rem);
+    @include resFont(885px, 1.4rem);
     span {
         margin-right: .5rem;
     }
     svg {
         height: 1.2rem;
         width: auto;
-        @include resFont(885px, 1.5rem);
+        @include resHeight(885px, 1.6rem);
     }
     &:hover {
         color: var(--engine-button-color-hover);
