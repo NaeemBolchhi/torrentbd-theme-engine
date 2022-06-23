@@ -39,9 +39,46 @@
   --engine-theme-toggle-hover: var(--engine-account-buttons-hover);
   --engine-theme-toggle-background: var(--engine-account-buttons-background);
 }
+
 .dawn, .auto {
   display: none;
 }
+
 .dusk {
   display: inherit;
 }
+
+/* JS */
+#userscript svg .st0 {
+  fill: #e3b942;
+}
+
+#userscript svg .st1 {
+  fill: #f2f2f2;
+}
+
+#userscript svg .st2 {
+  fill: #3f4a43;
+}
+
+#userscript svg .st3 {
+  fill: var(--engine-accent-color-1);
+}
+
+#userscript svg .st4 {
+  fill: var(--engine-button-color);
+}
+
+/* TM */
+#tampermonkey svg .st0 {
+  fill: #dddddd;
+}
+
+#tampermonkey svg .st1 {
+  fill: var(--engine-accent-color-1);
+}
+
+#tampermonkey svg .st2 {
+  fill: var(--engine-button-color);
+}
+/*# sourceMappingURL=dark.css.map */

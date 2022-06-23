@@ -214,27 +214,27 @@ main {
           flex: 1 0 auto;
 }
 
-.browser-icons {
+.getting-started {
   margin: .5rem 0;
 }
 
-.browser-icons a {
+.getting-started a {
   margin: 0 .8rem;
 }
 
-.browser-icons a:hover img {
-  padding: 0;
+.getting-started a:hover svg {
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
 }
 
-.browser-icons a:active img {
+.getting-started a:active svg {
   -webkit-transform: translateY(2px);
           transform: translateY(2px);
 }
 
-.browser-icons img {
+.getting-started svg {
   height: 5rem;
   width: auto;
-  padding: .2rem;
 }
 
 footer h3 {
