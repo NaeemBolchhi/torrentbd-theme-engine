@@ -222,19 +222,19 @@ main {
   margin: 0 .8rem;
 }
 
+.browser-icons a:hover img {
+  padding: 0;
+}
+
+.browser-icons a:active img {
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+}
+
 .browser-icons img {
   height: 5rem;
   width: auto;
   padding: .2rem;
-}
-
-.browser-icons img:hover {
-  padding: 0;
-}
-
-.browser-icons img:active {
-  -webkit-transform: translateY(2px);
-          transform: translateY(2px);
 }
 
 footer h3 {

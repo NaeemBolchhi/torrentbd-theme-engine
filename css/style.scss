@@ -140,17 +140,21 @@ main {
     margin: .5rem 0;
     a {
         margin: 0 .8rem;
+        &:hover {
+            img {
+                padding: 0;
+            }
+        }
+        &:active {
+            img {
+                transform: translateY(2px);
+            }
+        }
     }
     img {
         height: 5rem;
         width: auto;
         padding: .2rem;
-        &:hover {
-            padding: 0;
-        }
-        &:active {
-            transform: translateY(2px);
-        }
     }
 }
 
