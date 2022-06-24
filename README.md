@@ -22,6 +22,10 @@ TamperMonkey is needed to install the UserScript from GreasyFork. Other similar 
 #### (2) Install the UserScript from GreasyFork
 [![](https://img.shields.io/badge/UserScript-%23aa1010)](https://greasyfork.org/en/scripts/440627-torrentbd-theme-engine)
 
+## Uninstall
+
+Simply disable to remove the script from the dashboard of your script manager. If you don't understand how that works, uninstall the TamperMonkey extension instead.
+
 ## Useful Links
 
 - [Programmatically Lighten or Darken a HEX Color](https://stackoverflow.com/a/57401891/14312937)
