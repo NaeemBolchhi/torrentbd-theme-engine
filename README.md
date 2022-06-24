@@ -1,6 +1,6 @@
 # TorrentBD Theme Engine
 
-The theme engine for TorrentBD is a userscript/extension that lets you customize the color palette of the TorrentBD website. Updates are first released on GreasyFork, then on the supported extension stores.
+The theme engine for TorrentBD is a userscript that lets you customize the color palette of the TorrentBD website. Updates are first released on GreasyFork, then on the supported extension stores.
 
 #### This is not supported, sponsored, or endorsed by TorrentBD or TorrentBD staff.
 
