@@ -18,7 +18,7 @@
   background: var(--engine-accent-color-1);
 }
 
-.browser-icons, header {
+header, .getting-started {
   -webkit-tap-highlight-color: transparent;
   -webkit-user-select: none;
      -moz-user-select: none;
