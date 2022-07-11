@@ -12,9 +12,9 @@ The script uses localStorage to save color values in the browser, and connects t
 
 ## Install
 
-TamperMonkey is needed to install the UserScript from GreasyFork. Other similar extensions may also work but have not been tested.
+Tampermonkey is needed to install the UserScript from GreasyFork. Other similar extensions may also work but have not been tested.
 
-#### (1) Install TamperMonkey for your browser
+#### (1) Install Tampermonkey for your browser
 [![](https://img.shields.io/badge/Google%20Chrome-%231a73e8)](https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo)
 [![](https://img.shields.io/badge/Mozilla%20Firefox-%23ff5f3a)](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
 [![](https://img.shields.io/badge/Microsoft%20Edge-%232cfbcd)](https://microsoftedge.microsoft.com/addons/detail/iikmkjmpaadaobahmlepeloendndfphd)
