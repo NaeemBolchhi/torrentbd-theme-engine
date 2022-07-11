@@ -24,7 +24,7 @@ Tampermonkey is needed to install the UserScript from GreasyFork. Other similar 
 
 ## Uninstall
 
-Simply disable to remove the script from the dashboard of your script manager. If you don't understand how that works, uninstall the TamperMonkey extension instead.
+Simply disable to remove the script from the dashboard of your script manager. If you don't understand how that works, uninstall the Tampermonkey extension instead.
 
 ## Useful Links
 
